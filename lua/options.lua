@@ -31,3 +31,5 @@ vim.opt.splitbelow = true
 -- vim.opt.updatetime = 200
 -- vim.opt.timeoutlen = 220
 
+-- No autocommenting
+vim.opt.formatoptions:remove({'o', 'r'})

@@ -41,6 +41,6 @@ local LazyOpts = {
     }
 }
 
-require('lazy').setup({{
+require('lazy').setup({
     import = 'plugins'
-}}, LazyOpts)
+}, LazyOpts)
